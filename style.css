@@ -10,6 +10,7 @@
     margin-left: 36px;
     margin-top: 30px;
     pointer-events: none;
+    font-family: 'digital-clock-font';
 }
 .btn{
     width: 60px;
@@ -18,3 +19,8 @@
     margin-top: 30px;
     background: bisque;
 }
+
+@font-face{
+    font-family:'digital-clock-font';
+    src: url('put_the_location_to_your_font.ttf or .otf');
+   }
